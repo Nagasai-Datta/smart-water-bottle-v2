@@ -1,0 +1,30 @@
+# PlatformIO / VSCode
+.pio/
+.pioenvs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build artifacts
+build/
+bin/
+*.elf
+*.bin
+
+# node
+node_modules/
+
+# local sensitive files
+.env
+firebase_config.js
+config.local.js
+
+# Wokwi caches
+*.wokwi
+
+# temp files
+*.swp
+*~
